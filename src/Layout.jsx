@@ -100,6 +100,16 @@ export default function Layout() {
             >
               Results
             </NavLink>
+            <NavLink
+              to="/dashboard"
+              style={({ isActive }) => ({
+                ...linkStyle,
+                color: isActive ? '#4ade80' : '#94a3b8',
+                background: isActive ? 'rgba(74, 222, 128, 0.12)' : 'transparent',
+              })}
+            >
+              Dashboard
+            </NavLink>
           </div>
         </div>
       </nav>

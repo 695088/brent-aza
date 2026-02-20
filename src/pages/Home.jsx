@@ -140,6 +140,16 @@ export default function Home() {
             Correlation matrix and insights from 160 respondents. See what drives adoption and who’s most likely to download.
           </p>
         </Link>
+        <Link
+          to="/dashboard"
+          className="home-card"
+          style={card}
+        >
+          <h2 style={cardTitle}>Analysis Dashboard</h2>
+          <p style={cardDesc}>
+            Interactive dashboard with demographics, constructs, relationships, correlation matrix, and insights from <span style={cardAccent}>160 survey responses</span>.
+          </p>
+        </Link>
       </section>
     </div>
   );
